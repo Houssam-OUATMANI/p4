@@ -6,7 +6,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+blockquote{
+    border-left: 0 !important;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -1030,6 +1032,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+}
+.dark {
+    color:  black !important;
 }
 
 @media (max-width: 400px) {
